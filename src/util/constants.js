@@ -1,5 +1,5 @@
 export const AppConstants = {
-    Backend_URL: 'http://localhost:8080/api/v1.0',
+    Backend_URL: 'https://authspring-backend.onrender.com/api/v1.0',
 }
 
 export default AppConstants;    
