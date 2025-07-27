@@ -16,6 +16,7 @@ export const AppContextProvider = (props) => {
     const getUserData = async() =>{
         try {
             const response = await axios.get(backendURL+"/profile", { withCredentials: true });
+            console.log(response.data)
            
             if(response.status === 200){
 
